@@ -1,0 +1,124 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: Poppins, Roboto, Arial;
+  margin: 20px 50px 20px 50px;
+
+  width: 1150px;
+
+  background-color: lightblue;
+  color: #111;
+}
+
+.bg-color{
+  padding: 30px;
+
+  border: solid black;
+  border-width: 2px;
+  border-radius: 10px;
+
+  background-color: #BEE5B0;
+}
+
+.title1{
+  display: grid;
+  grid-template-columns: 14fr 1fr 220px;
+  grid-template-rows: 200px;
+
+  padding: 10px 20px 10px 20px;
+
+  background-color: rgba(45, 85, 50, 0.1)
+}
+
+.name{
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.contact{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.CV-icon{
+  height: 15px;
+  width: 15px;
+  
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.border-image{
+  border-left: solid black;
+  border-width: 2px;
+
+  margin-left: 20px;
+  margin-right: 20px; 
+}
+
+.CV-image{
+  height: 100%;
+  width: 100%;
+  
+  border: solid black;
+  border-width: 2px;
+  border-radius: 45px;
+}
+
+.image-div{
+  margin-right: 20px;
+}
+
+.border-section{
+  border-top: solid black;
+  border-width: 2px;
+
+  width: 100%;
+
+  margin-top: 20px;
+  margin-bottom: 20px; 
+}
+
+.job{
+  margin-top: 8px;
+}
+
+.company-name-date{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.company-name{
+  color: red;
+}
+
+.date{
+  text-align: right;
+}
+
+.job-title{
+  text-align: left;
+}
+
+table{
+  padding: 3px;
+}
+
+.education-table{
+  width: 100%;
+}
+
+.education-title{
+  text-align: left;
+}
+
+.edu-list{
+  padding-top: 5px;
+}
+
+.edu-date{
+  text-align: right;
+}
