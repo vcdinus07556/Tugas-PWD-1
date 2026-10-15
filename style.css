@@ -25,7 +25,7 @@ body{
 
 .title1{
   display: grid;
-  grid-template-columns: 14fr 1fr 220px;
+  grid-template-columns: 220px 1fr 14fr;
   grid-template-rows: 200px;
 
   padding: 10px 20px 10px 20px;
